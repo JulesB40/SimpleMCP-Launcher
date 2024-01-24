@@ -1,7 +1,7 @@
 {
     "name": "SimpleMCP-Launcher",
     "preductname": "SimpleMCP Launcher",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Launcher Mincraft pour jouer entre pote.",
     "main": "src/app.js",
     "author": {
