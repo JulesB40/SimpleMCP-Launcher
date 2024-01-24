@@ -1,20 +1,20 @@
 {
-    "name": "Selvania-Launcher",
-    "preductname": "Selvania Launcher",
-    "version": "2.0.0",
-    "description": "Launcher Mincraft pour le serveur Selvania",
+    "name": "SimpleMCP-Launcher",
+    "preductname": "SimpleMCP Launcher",
+    "version": "1.0.0",
+    "description": "Launcher Mincraft pour jouer entre pote.",
     "main": "src/app.js",
     "author": {
-        "name": "luuxis, Inc.",
+        "name": "luuxis, Miska25, Inc.",
         "email": "contact@luuxis.fr",
         "url": "https://github.com/luuxis"
     },
-    "url": "http://launcher.luuxis.fr/launcherSelvania",
+    "url": "http://miskaop.cluster029.hosting.ovh.net",
     "scripts": {
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "dev": "cross-env-shell DEV_TOOL=open nodemon --exec npm start",
         "build": "node build.js --obf=false --build=platform",
-        "icon": "node build.js --icon=https://raw.githubusercontent.com/luuxis/Selvania-Launcher/master/src/assets/images/icon.png"
+        "icon": "node build.js --icon=https://cdn.icon-icons.com/icons2/56/PNG/512/metro_minecraft_11396.png"
     },
     "license": "CCANC",
     "nodemonConfig": {
@@ -39,6 +39,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/luuxis/Selvania-Launcher.git"
+        "url": "git+https://github.com/JulesB40/SimpleMCP-Launcher.git"
     }
 }
